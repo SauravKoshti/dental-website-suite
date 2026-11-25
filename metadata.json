@@ -1,0 +1,6 @@
+{
+  "name": "Lumina Dental Arts – Modern American Dental Practice Demo",
+  "description": "A high-converting, 5-page premium dental clinic website for US practices featuring interactive appointment booking, insurance checker, smile gallery, and doctor credentials.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

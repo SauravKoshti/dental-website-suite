@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumina Dental Arts – Modern American Dental Practice Demo</title>
+    <meta name="description" content="A high-converting, 5-page premium dental clinic website for US practices featuring interactive appointment booking, insurance checker, smile gallery, and doctor credentials." />
+    <meta property="og:title" content="Lumina Dental Arts – Modern American Dental Practice Demo" />
+    <meta property="og:description" content="A high-converting, 5-page premium dental clinic website for US practices featuring interactive appointment booking, insurance checker, smile gallery, and doctor credentials." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lumina Dental Arts – Modern American Dental Practice Demo" />
+    <meta name="twitter:description" content="Premier American dental practice demo featuring gentle family, cosmetic, and implant dentistry." />
+
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org DentalClinic JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "DentalClinic",
+      "name": "Lumina Dental Arts",
+      "image": "/src/assets/images/dental_hero_clinic_1793863464369.jpg",
+      "@id": "https://luminadentalarts.com",
+      "url": "https://luminadentalarts.com",
+      "telephone": "+1-713-555-0192",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1420 Post Oak Blvd, Suite 400",
+        "addressLocality": "Houston",
+        "addressRegion": "TX",
+        "postalCode": "77056",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 29.7499,
+        "longitude": -95.4619
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "07:30",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "14:00"
+        }
+      ],
+      "department": [
+        {
+          "@type": "MedicalClinic",
+          "name": "Emergency Dental Services",
+          "telephone": "+1-713-555-0199"
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="font-sans antialiased text-slate-800 bg-white selection:bg-teal-100 selection:text-teal-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
